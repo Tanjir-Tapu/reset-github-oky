@@ -3,54 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>my blog</title>
-    <link rel="stylesheet" href="new.css">
+    <title>pizza burg</title>
+    <style>
+        label{
+            display: block;
+            margin: 10px;
+
+        }
+        .niche{
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="home.html">home</a>
-                </li>
-                <li>
-                    <a href="blogs.html">blogs</a>
-                </li>
-                <li>
-                    <a href="abaut">abaut</a>
-                </li>
-            </ul>
-        </nav>       
+        <h2>pizza burg</h2>
     </header>
     <main>
-        <article>
-            <header>
-                <h1>
-                    this is my blog
-                </h1>
-                <p>
-                    publish on <time datetime="2020-08-5"></time>August 2020
-                </p>
-                <figure>
-                    <img width="50%" src="vati.jpg" alt="">
-                    <figcaption>This is vaiary photo</figcaption>
-                    <section>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consectetur, in, quos aut fugiat provident eligendi quod nesciunt corporis, commodi pariatur voluptates dolore soluta ipsam eveniet assumenda delectus? Quibusdam, fuga?
-                        </p>
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae natus qui nihil nesciunt, ad ut voluptatibus iste repellendus, ea autem est consequuntur dolor quis sequi eum optio accusamus molestias veritatis?
-                        </p>
-                    </section>
-                    <footer>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro minus reprehenderit soluta tenetur dolores quis vero reiciendis alias ipsam quaerat doloribus enim aut totam, repellendus expedita laudantium! Ducimus, expedita explicabo?
-                        </p>
-                    </footer>
-                </figure>
-            </header>
+        <h1>ফরম ফিলআপ কর পিৎজা খা</h1>
+        <form action="">
+            <label for="name">তোর নাম কি?
+                <input type="text" placeholder="তোর নাম লেখ!">
+            </label>
 
-        </article>
+            <label for="phone">তোর নাম্বার বল?
+                <input type="text" placeholder="নাম্বার দে বেটা!">
+            </label>
+
+            <label for="age">তোর বয়স কত?
+                <input type="text" placeholder="বয়স কত!">
+            </label>
+            <fieldset>
+                <legend>কি খাবি?</legend>
+                <label for="pizza">
+                    <input type="radio" name="pp" id="pizza">পিৎজা
+                </label>
+
+                <label for="burger">
+                    <input type="radio" name="pp" id="burger">বার্গার 
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>কোন সস নিবি?</legend>
+                <label for="sauce">
+                    <input type="checkbox" name="" id="sauce">সাদা সস
+                </label>
+                <label for="sauce">
+                    <input type="checkbox" name="sauce" id="">লাল সস 
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>বেভারেজ লাগবো?</legend>
+                <label for="idhk">
+                    <input type="radio" name="oo" id="idhk">চকলেট শেক 
+                </label>
+                <label for="idhk">
+                    <input type="radio" name="oo" id="idhk">মিল্ক শেক 
+                </label>
+
+                <label for="idhk">
+                    <input type="radio" name="oo" id="idhk">বানানা শেক
+                </label>
+            </fieldset>
+            <input class="niche" type="reset" value="অর্ডার দে ">
+        </form>
     </main>
 </body>
 </html>
